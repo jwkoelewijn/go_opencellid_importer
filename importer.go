@@ -27,7 +27,7 @@ func contains(collection []string, item string) bool {
 func main() {
 
 	infilePtr := flag.String("inputFile", "cell_towers.csv", "Input file downloaded from OpenCellID")
-	outfilePtr := flag.String("outputFile", "selected_cell_towers.scv", "Output file with a selection of celltowers")
+	outfilePtr := flag.String("outputFile", "selected_cell_towers.csv", "Output file with a selection of celltowers")
 	countriesPtr := flag.String("countryCodes", "204,206,262", "MCC (Mobile Country Codes) to select from inputFile")
 
 	flag.Parse()
